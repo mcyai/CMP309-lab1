@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bean There Coffee Roasters - Contact</title>
+</head>
+<body>
+  <header>
+    <h1>Bean There Coffee Roasters</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Contact Us</h2>
+    <form action="https://httpbin.org/post" method="post">
+      <fieldset>
+        <legend>Send us a message</legend>
+
+        <p>
+          <label for="name">Full name:</label>
+          <input type="text" id="name" name="name" required>
+        </p>
+
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </p>
+
+        <p>
+          <label for="date">Preferred visit date:</label>
+          <input type="date" id="date" name="date">
+        </p>
+
+        <p>
+          <label for="topic">Topic:</label>
+          <select id="topic" name="topic">
+            <option value="subscription">Bean Subscription</option>
+            <option value="workshop">Barista Workshop</option>
+            <option value="event">Private Event Catering</option>
+            <option value="other">Other</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="6" cols="40" required></textarea>
+        </p>
+
+        <button type="submit">Send</button>
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Muhammed Çağrı Yıldız. All rights reserved.</p>
+  </footer>
+</body>
+</html>
